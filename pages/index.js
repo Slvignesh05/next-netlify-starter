@@ -15,13 +15,7 @@ export default function Home() {
         <p className="description" style={{ fontSize: '24px', fontWeight: 'bold', textAlign: 'center' }}>
           PoC by w3shi (S. Lakshmi Vignesh)(HackerOne)
         </p>
-        <div style={{ textAlign: 'center', marginTop: '20px' }}>
-          <img 
-            src="https://raw.githubusercontent.com/izumigoto/akino/refs/heads/main/cat0nkolam.png" 
-            alt="Circular Image"
-            style={{ width: '200px', height: '200px', borderRadius: '50%' }}
-          />
-        </div>
+
       </main>
 
       <Footer />
