@@ -12,7 +12,7 @@ export default function Home() {
 
       <main>
         <Header title="Welcome to my app!" />
-        <p className="author">PoC by w3shi (S. Lakshmi Vignesh)(HackerOne)</p>
+        <p className="author">POC by w3shi (S. Lakshmi Vignesh)(HackerOne)</p>
       </main>
 
       <Footer />
