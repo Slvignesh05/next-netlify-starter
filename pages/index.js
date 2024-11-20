@@ -12,18 +12,19 @@ export default function Home() {
 
       <main>
         <Header title="Hello World!" />
-        <p className="author">POC by w3shi (S. Lakshmi Vignesh)(HackerOne)</p>
+        <p className="description" style={{ fontSize: '24px', fontWeight: 'bold', textAlign: 'center' }}>
+          PoC by w3shi (S. Lakshmi Vignesh)(HackerOne)
+        </p>
+        <div style={{ textAlign: 'center', marginTop: '20px' }}>
+          <img 
+            src="https://raw.githubusercontent.com/izumigoto/akino/refs/heads/main/cat0nkolam.png" 
+            alt="Circular Image"
+            style={{ width: '200px', height: '200px', borderRadius: '50%' }}
+          />
+        </div>
       </main>
 
       <Footer />
-      <style jsx>{`
-        .author {
-          font-size: 2rem; /* Adjust the size as needed */
-          font-weight: bold;
-          text-align: center;
-          margin-top: 20px;
-        }
-      `}</style>
     </div>
   )
 }
