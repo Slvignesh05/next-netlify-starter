@@ -6,18 +6,24 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Subdomain Takeover</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
+        <p className="author">PoC by w3shi (S. Lakshmi Vignesh)(HackerOne)</p>
       </main>
 
       <Footer />
+      <style jsx>{`
+        .author {
+          font-size: 2rem; /* Adjust the size as needed */
+          font-weight: bold;
+          text-align: center;
+          margin-top: 20px;
+        }
+      `}</style>
     </div>
   )
 }
