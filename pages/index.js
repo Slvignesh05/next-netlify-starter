@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="Hello World!" />
         <p className="author">POC by w3shi (S. Lakshmi Vignesh)(HackerOne)</p>
       </main>
 
